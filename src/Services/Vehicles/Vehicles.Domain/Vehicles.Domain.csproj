@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Common\Alten.Automotive.Common.Helpers\Common.Helpers.csproj" />
+    <ProjectReference Include="..\..\..\Common\Alten.Automotive.Common.Messaging\Common.Messaging.csproj" />
+    <ProjectReference Include="..\Vehicles.Infrastructure\Vehicles.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
